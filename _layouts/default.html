@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%2300e5a0'>Γ</text></svg>">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+</head>
+<body>
+  <div class="site-grid">
+    <header class="site-header">
+      <div class="brand">
+        <a href="{{ '/' | relative_url }}">
+          <span class="brand-glyph">Γ</span>
+          <span class="brand-text">GSRL</span>
+        </a>
+        <div class="brand-sub">Gamma Systems Research Laboratory</div>
+      </div>
+      <nav class="site-nav">
+        {% for item in site.nav_pages %}
+          <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <strong>GSRL</strong> · Morelia, Michoacán, México<br>
+          Director Científico: Eduardo Hernández-Morales (IEEE Member)
+        </div>
+        <div>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
+      </div>
+      <div class="footer-copy">© {{ site.time | date: '%Y' }} Gamma Systems Research Laboratory. Todos los derechos reservados.</div>
+    </footer>
+  </div>
+</body>
+</html>
