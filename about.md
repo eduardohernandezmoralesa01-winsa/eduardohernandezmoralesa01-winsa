@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Acerca de / Bitácora de Investigación
+permalink: /about/
 ---
 
 # Bitácora de Investigación: Avances, Teoría y Resultados
