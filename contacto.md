@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contacto
+permalink: /about/
 ---
 
 # Canal Oficial de Contacto y Enlace Estratégico
