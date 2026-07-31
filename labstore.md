@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LabStore
-permalink: /labstore.md/
+permalink: /labstore/
 ---
 
 # GSRL LabStore
