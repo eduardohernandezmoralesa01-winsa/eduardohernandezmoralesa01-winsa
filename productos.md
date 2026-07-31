@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Productos & Publicaciones
+permalink: /productos/
 ---
 
 # Productos & Publicaciones Científicas
