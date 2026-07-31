@@ -1,0 +1,45 @@
+title: GSRL — Gamma Systems Research Laboratory
+description: >-
+  Control robusto de vanguardia y estabilidad espectral en tiempo real.
+  Morelia, Michoacán, México.
+author: Eduardo Hernández-Morales
+email: gammasystemsresearchlab@gmail.com
+url: "https://gsrl.space"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+plugins:
+  - jekyll-feed
+
+# Navigation (used in _includes/nav.html)
+nav_pages:
+  - title: Inicio
+    url: /
+  - title: Acerca de / Blog
+    url: /about/
+  - title: Productos & Publicaciones
+    url: /productos/
+  - title: LabStore
+    url: /labstore/
+  - title: Contacto
+    url: /contacto/
+
+collections:
+  posts:
+    output: true
+    permalink: /bitacora/:year/:month/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
