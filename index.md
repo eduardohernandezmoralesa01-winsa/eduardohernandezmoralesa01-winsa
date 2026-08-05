@@ -44,4 +44,8 @@ The small satellite industry (SmallSats and CubeSats) is growing exponentially, 
 
 We are seeking angel investors and aerospace industry partners who share our vision of a more efficient, secure, and mathematically robust space ecosystem.
 
-<p><a href="{{ '/contacto/' | relative_url }}" class="buy-btn">Contact the Laboratory &rarr;</a></p>
+<p style="margin-top: 24px;">
+  <a href="{{ '/contacto/' | relative_url }}" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+    Contact the Laboratory &rarr;
+  </a>
+</p>
