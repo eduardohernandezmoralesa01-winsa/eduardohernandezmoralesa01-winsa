@@ -20,16 +20,16 @@ If you wish to request commercial licensing quotes, propose academic co-authorsh
   <div class="contact-item" style="margin-top: 12px;">
     <span class="contact-label">Primary Email</span>
     <p style="margin-top: 6px;">
-      <a href="mailto:gammasystemsresearchlab@gmail.com" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 10px 18px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-        gammasystemsresearchlab@gmail.com
+      <a href="mailto:info@gsrl.space" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 10px 18px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+        info@gsrl.space
       </a>
     </p>
   </div>
   <div class="contact-item" style="margin-top: 12px;">
     <span class="contact-label">Alternative Email</span>
     <p style="margin-top: 6px;">
-      <a href="mailto:tiberioclaudiodursus64@gmail.com" class="buy-btn" style="color: #ffffff !important; background-color: #374151; padding: 10px 18px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-        tiberioclaudiodursus64@gmail.com
+      <a href="mailto:admon@gsrl.space" class="buy-btn" style="color: #ffffff !important; background-color: #374151; padding: 10px 18px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+        admon@gsrl.space
       </a>
     </p>
   </div>
@@ -42,7 +42,7 @@ If you wish to request commercial licensing quotes, propose academic co-authorsh
 Access to the advanced numerical core of the Operational Control Spectral (OCS) and closed-source modules is strictly restricted. Any plant integration, corporate quotation, or custom Digital Twin development requires the prior signing of a Non-Disclosure Agreement (NDA) to protect the laboratory's intellectual property assets.
 
 <p style="margin-top: 16px;">
-  <a href="mailto:gammasystemsresearchlab@gmail.com?subject=NDA%20%26%20Industrial%20Request%20-%20GSRL" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+  <a href="mailto:info@gsrl.space?subject=NDA%20%26%20Industrial%20Request%20-%20GSRL" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
     Request Industrial NDA &rarr;
   </a>
 </p>
