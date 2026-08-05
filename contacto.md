@@ -4,34 +4,49 @@ title: Contacto
 permalink: /contacto/
 ---
 
-# Canal Oficial de Contacto y Enlace Estratégico
-
-### GSRL | Gamma Systems Research Laboratory
-*Morelia, Michoacán, México · IEEE Member*
-
-Si deseas solicitar cotizaciones para licencias comerciales, proponer colaboraciones de coautoría académica o iniciar una prueba de concepto (PoC) industrial bajo acuerdos de confidencialidad, utiliza nuestros canales oficiales de comunicación.
+<section class="hero">
+  <div class="hero-kicker">Robust Control · Spectral Stability · Real-Time</div>
+  <h1>GSRL: Cutting-Edge Control and Real-Time Spectral Stability</h1>
+  <p class="hero-lede">
+    In modern aerospace development and critical systems, safety and stability cannot be left to chance or depend on slow computing systems. Traditional control methods require highly complex iterative numerical optimization algorithms that saturate onboard computers in satellites (ADCS) and spacecraft, increasing power consumption and the risk of failure at critical moments.
+  </p>
+</section>
 
 <div class="card">
-  <div class="contact-item">
-    <span class="contact-label">Dirección Científica</span>
-    <span>Eduardo Hernández-Morales</span>
+  <strong>At Gamma Systems Research Laboratory (GSRL), we have changed the rules of the game.</strong>
+  <p style="margin-top:12px">
+    We develop robust control solutions based on closed-form analytical formulations. This allows for real-time monitoring and guarantees of spectral stability for linear systems and interval matrices, operating with an ultra-fast algorithmic complexity of order $\mathcal{O}(n^2)$.
+  </p>
+  <p>
+    Our technology eliminates the need for heavy optimization processes in space, enabling microsatellites and spacecraft to execute critical maneuvers with maximum mathematical precision and a fraction of the hardware power consumption required by conventional methods.
+  </p>
+</div>
+
+## Our Technological Pillars
+
+<div class="card-grid">
+  <div class="pillar">
+    <h4>Hermitian Spectral Bound (HSB)</h4>
+    <p style="margin:0">Hybrid spectral bound for instantaneous stability limit determination without iterative numerical calculation.</p>
   </div>
-  <div class="contact-item">
-    <span class="contact-label">Correo Principal</span>
-    <a href="mailto:gammasystemsresearchlab@gmail.com">gammasystemsresearchlab@gmail.com</a>
+  <div class="pillar">
+    <h4>Gamma Theory &amp; OCS</h4>
+    <p style="margin:0">Operational Control Spectral: a unified framework for active stability monitoring, designed for direct implementation in embedded systems (C++, VHDL).</p>
   </div>
-  <div class="contact-item">
-    <span class="contact-label">Correo Alternativo</span>
-    <a href="mailto:tiberioclaudiodursus64@gmail.com">tiberioclaudiodursus64@gmail.com</a>
+  <div class="pillar">
+    <h4>Robustness Against Uncertainty</h4>
+    <p style="margin:0">Modeling via interval matrices that guarantees system performance in the face of extreme dynamic perturbations in space environments.</p>
   </div>
 </div>
 
-## Protocolo de Transferencia Tecnológica y Alianzas
+## For Investors and Strategic Partners
 
-### 🔒 Solicitudes Industriales (NDA)
+The small satellite industry (SmallSats and CubeSats) is growing exponentially, but remains constrained by the processing capacity of onboard computers. GSRL offers an ultra-optimized IP (Intellectual Property) software core that drastically reduces hardware requirements for attitude determination and control systems (ADCS).
 
-El acceso al núcleo numérico avanzado del Operador de Control Espectral (OCS) y a los módulos de código cerrado está estrictamente restringido. Toda integración en planta, cotización corporativa o desarrollo de Digital Twins a medida requiere la firma previa de un Acuerdo de No Divulgación (NDA) para proteger los activos de propiedad intelectual del laboratorio.
+We are seeking angel investors and aerospace industry partners who share our vision of a more efficient, secure, and mathematically robust space ecosystem.
 
-### 🎓 Vinculación Académica y de Investigación
-
-Invitamos a investigadores, estudiantes de posgrado y laboratorios hermanos (UNAM, CINVESTAV, Tec de Monterrey, entre otros) a establecer puentes de colaboración. Si te interesa desarrollar simulaciones aplicadas empleando el marco matemático de la Cota Espectral Hermitiana (HSB) o la Gamma Theory, contáctanos para coordinar accesos institucionales y proyectos conjuntos de publicación científica.
+<p style="margin-top: 24px;">
+  <a href="{{ '/contacto/' | relative_url }}" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+    Contact the Laboratory &rarr;
+  </a>
+</p>
