@@ -4,21 +4,25 @@ title: Acerca de / Bitácora de Investigación
 permalink: /about/
 ---
 
-# Bitácora de Investigación: Avances, Teoría y Resultados
+# Research Log: Breakthroughs, Theory & Results
 
-Este es el espacio dinámico de GSRL. Aquí Eduardo Hernández-Morales publica periódicamente los avances de las simulaciones del laboratorio, el desarrollo de nueva teoría matemática, preprints y los resultados en tiempo real de los algoritmos de control.
+This is GSRL's dynamic updates space. Here, Eduardo Hernández-Morales periodically publishes laboratory simulation progress, ongoing mathematical theory development, preprints, and real-time control algorithm results.
 
-## Entradas Recientes
+## Recent Entries
 
 {% for post in site.posts %}
-<div class="post-entry">
-  <div class="post-entry-date">{{ post.date | date: "%B %Y" }}</div>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<div class="post-entry" style="margin-bottom: 24px; padding: 16px; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; background-color: rgba(255,255,255,0.02);">
+  <div class="post-entry-date" style="font-weight: bold; color: #9ca3af; margin-bottom: 8px;">{{ post.date | date: "%B %Y" }}</div>
+  <h3 style="margin-top: 0;"><a href="{{ post.url | relative_url }}" style="color: #60a5fa; text-decoration: none;">{{ post.title }}</a></h3>
   <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-  <a href="{{ post.url | relative_url }}">Leer artículo completo &rarr;</a>
+  <p style="margin-top: 12px;">
+    <a href="{{ post.url | relative_url }}" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 8px 16px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+      Read Full Article &rarr;
+    </a>
+  </p>
 </div>
 {% endfor %}
 
 ---
 
-> **Nota de uso:** cada vez que se actualiza el sitio, solo se agrega una nueva entrada en Markdown (`.md`) dentro de `_posts/` con la fecha, el título de la nueva teoría o avance, y el texto detallado. Ver `_posts/` en el repositorio para el formato exacto.
+> **Usage Note:** Every time the site is updated, a new Markdown (`.md`) file is added inside `_posts/` with the date, title of the new theory or breakthrough, and detailed text. See `_posts/` in the repository for the exact format.
