@@ -4,49 +4,55 @@ title: Contacto
 permalink: /contacto/
 ---
 
-<section class="hero">
-  <div class="hero-kicker">Robust Control · Spectral Stability · Real-Time</div>
-  <h1>GSRL: Cutting-Edge Control and Real-Time Spectral Stability</h1>
-  <p class="hero-lede">
-    In modern aerospace development and critical systems, safety and stability cannot be left to chance or depend on slow computing systems. Traditional control methods require highly complex iterative numerical optimization algorithms that saturate onboard computers in satellites (ADCS) and spacecraft, increasing power consumption and the risk of failure at critical moments.
-  </p>
-</section>
+
+# Official Contact Channel & Strategic Engagement
+
+### GSRL | Gamma Systems Research Laboratory
+*Morelia, Michoacán, México · IEEE Member*
+
+If you wish to request commercial licensing quotes, propose academic co-authorship collaborations, or initiate an industrial Proof of Concept (PoC) under non-disclosure agreements, please use our official communication channels.
 
 <div class="card">
-  <strong>At Gamma Systems Research Laboratory (GSRL), we have changed the rules of the game.</strong>
-  <p style="margin-top:12px">
-    We develop robust control solutions based on closed-form analytical formulations. This allows for real-time monitoring and guarantees of spectral stability for linear systems and interval matrices, operating with an ultra-fast algorithmic complexity of order $\mathcal{O}(n^2)$.
-  </p>
-  <p>
-    Our technology eliminates the need for heavy optimization processes in space, enabling microsatellites and spacecraft to execute critical maneuvers with maximum mathematical precision and a fraction of the hardware power consumption required by conventional methods.
-  </p>
-</div>
-
-## Our Technological Pillars
-
-<div class="card-grid">
-  <div class="pillar">
-    <h4>Hermitian Spectral Bound (HSB)</h4>
-    <p style="margin:0">Hybrid spectral bound for instantaneous stability limit determination without iterative numerical calculation.</p>
+  <div class="contact-item">
+    <span class="contact-label">Scientific Leadership</span>
+    <span>Eduardo Hernández-Morales</span>
   </div>
-  <div class="pillar">
-    <h4>Gamma Theory &amp; OCS</h4>
-    <p style="margin:0">Operational Control Spectral: a unified framework for active stability monitoring, designed for direct implementation in embedded systems (C++, VHDL).</p>
+  <div class="contact-item" style="margin-top: 12px;">
+    <span class="contact-label">Primary Email</span>
+    <p style="margin-top: 6px;">
+      <a href="mailto:gammasystemsresearchlab@gmail.com" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 10px 18px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+        gammasystemsresearchlab@gmail.com
+      </a>
+    </p>
   </div>
-  <div class="pillar">
-    <h4>Robustness Against Uncertainty</h4>
-    <p style="margin:0">Modeling via interval matrices that guarantees system performance in the face of extreme dynamic perturbations in space environments.</p>
+  <div class="contact-item" style="margin-top: 12px;">
+    <span class="contact-label">Alternative Email</span>
+    <p style="margin-top: 6px;">
+      <a href="mailto:tiberioclaudiodursus64@gmail.com" class="buy-btn" style="color: #ffffff !important; background-color: #374151; padding: 10px 18px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+        tiberioclaudiodursus64@gmail.com
+      </a>
+    </p>
   </div>
 </div>
 
-## For Investors and Strategic Partners
+## Technology Transfer Protocol & Partnerships
 
-The small satellite industry (SmallSats and CubeSats) is growing exponentially, but remains constrained by the processing capacity of onboard computers. GSRL offers an ultra-optimized IP (Intellectual Property) software core that drastically reduces hardware requirements for attitude determination and control systems (ADCS).
+### 🔒 Industrial Requests (NDA)
 
-We are seeking angel investors and aerospace industry partners who share our vision of a more efficient, secure, and mathematically robust space ecosystem.
+Access to the advanced numerical core of the Operational Control Spectral (OCS) and closed-source modules is strictly restricted. Any plant integration, corporate quotation, or custom Digital Twin development requires the prior signing of a Non-Disclosure Agreement (NDA) to protect the laboratory's intellectual property assets.
 
-<p style="margin-top: 24px;">
-  <a href="{{ '/contacto/' | relative_url }}" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-    Contact the Laboratory &rarr;
+<p style="margin-top: 16px;">
+  <a href="mailto:gammasystemsresearchlab@gmail.com?subject=NDA%20%26%20Industrial%20Request%20-%20GSRL" class="buy-btn" style="color: #ffffff !important; background-color: #2563eb; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+    Request Industrial NDA &rarr;
+  </a>
+</p>
+
+### 🎓 Academic & Research Collaboration
+
+We invite researchers, graduate students, and partner laboratories (UNAM, CINVESTAV, Tec de Monterrey, among others) to establish collaborative bridges. If you are interested in developing applied simulations using the mathematical framework of the Hermitian Spectral Bound (HSB) or Gamma Theory, contact us to coordinate institutional access and joint scientific publication projects.
+
+<p style="margin-top: 16px;">
+  <a href="mailto:gammasystemsresearchlab@gmail.com?subject=Academic%20Collaboration%20-%20GSRL" class="buy-btn" style="color: #ffffff !important; background-color: #059669; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+    Propose Academic Collaboration &rarr;
   </a>
 </p>
