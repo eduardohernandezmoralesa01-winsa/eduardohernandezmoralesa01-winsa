@@ -1,47 +1,47 @@
 ---
 layout: default
-title: Inicio
+title: inicio
 ---
 
 <section class="hero">
-  <div class="hero-kicker">Control Robusto · Estabilidad Espectral · Tiempo Real</div>
-  <h1>GSRL: Control de Vanguardia y Estabilidad Espectral en Tiempo Real</h1>
+  <div class="hero-kicker">Robust Control · Spectral Stability · Real-Time</div>
+  <h1>GSRL: Cutting-Edge Control and Real-Time Spectral Stability</h1>
   <p class="hero-lede">
-    En el desarrollo aeroespacial y de sistemas críticos modernos, la seguridad y la estabilidad no pueden dejarse al azar ni depender de sistemas de cómputo lentos. Los métodos de control tradicionales exigen algoritmos de optimización numérica iterativa sumamente complejos que saturan las computadoras de a bordo de satélites (ADCS) y naves espaciales, elevando el consumo de energía y los riesgos de falla en momentos críticos.
+    In modern aerospace development and critical systems, safety and stability cannot be left to chance or depend on slow computing systems. Traditional control methods require highly complex iterative numerical optimization algorithms that saturate onboard computers in satellites (ADCS) and spacecraft, increasing power consumption and the risk of failure at critical moments.
   </p>
 </section>
 
 <div class="card">
-  <strong>En Gamma Systems Research Laboratory (GSRL) hemos cambiado las reglas del juego.</strong>
+  <strong>At Gamma Systems Research Laboratory (GSRL), we have changed the rules of the game.</strong>
   <p style="margin-top:12px">
-    Desarrollamos soluciones de control robusto basadas en formulaciones analíticas de forma cerrada. Esto permite supervisar y garantizar la estabilidad espectral de sistemas lineales y matrices de intervalo en tiempo real, con una complejidad algorítmica ultrarrápida de orden $\mathcal{O}(n^2)$.
+    We develop robust control solutions based on closed-form analytical formulations. This allows for real-time monitoring and guarantees of spectral stability for linear systems and interval matrices, operating with an ultra-fast algorithmic complexity of order $\mathcal{O}(n^2)$.
   </p>
   <p>
-    Nuestra tecnología elimina la necesidad de procesos de optimización pesados en el espacio, permitiendo que microsatélites y naves espaciales ejecuten maniobras críticas con la máxima precisión matemática y una fracción del consumo de hardware convencional.
+    Our technology eliminates the need for heavy optimization processes in space, enabling microsatellites and spacecraft to execute critical maneuvers with maximum mathematical precision and a fraction of the hardware power consumption required by conventional methods.
   </p>
 </div>
 
-## Nuestros Pilares Tecnológicos
+## Our Technological Pillars
 
 <div class="card-grid">
   <div class="pillar">
     <h4>Hermitian Spectral Bound (HSB)</h4>
-    <p style="margin:0">Cota espectral híbrida para la determinación instantánea de límites de estabilidad sin cálculo numérico iterativo.</p>
+    <p style="margin:0">Hybrid spectral bound for instantaneous stability limit determination without iterative numerical calculation.</p>
   </div>
   <div class="pillar">
     <h4>Gamma Theory &amp; OCS</h4>
-    <p style="margin:0">Operational Control Spectral: un marco unificado para la supervisión activa de la estabilidad, diseñado para su implementación directa en sistemas embebidos (C++, VHDL).</p>
+    <p style="margin:0">Operational Control Spectral: a unified framework for active stability monitoring, designed for direct implementation in embedded systems (C++, VHDL).</p>
   </div>
   <div class="pillar">
-    <h4>Robustez ante la Incertidumbre</h4>
-    <p style="margin:0">Modelado mediante matrices de intervalo que garantiza el comportamiento del sistema frente a perturbaciones dinámicas extremas en el entorno espacial.</p>
+    <h4>Robustness Against Uncertainty</h4>
+    <p style="margin:0">Modeling via interval matrices that guarantees system performance in the face of extreme dynamic perturbations in space environments.</p>
   </div>
 </div>
 
-## Para Inversionistas y Socios Estratégicos
+## For Investors and Strategic Partners
 
-La industria de los pequeños satélites (SmallSats y CubeSats) está creciendo exponencialmente, pero sigue limitada por la capacidad de procesamiento de sus ordenadores de a bordo. GSRL ofrece un núcleo de software IP (Propiedad Intelectual) altamente optimizado que reduce drásticamente los requisitos de hardware para los sistemas de control de actitud (ADCS).
+The small satellite industry (SmallSats and CubeSats) is growing exponentially, but remains constrained by the processing capacity of onboard computers. GSRL offers an ultra-optimized IP (Intellectual Property) software core that drastically reduces hardware requirements for attitude determination and control systems (ADCS).
 
-Buscamos inversionistas ángeles y socios de la industria aeroespacial que compartan nuestra visión de un espacio más eficiente, seguro y matemáticamente robusto.
+We are seeking angel investors and aerospace industry partners who share our vision of a more efficient, secure, and mathematically robust space ecosystem.
 
-<p><a href="{{ '/contacto/' | relative_url }}" class="buy-btn">Contactar al Laboratorio &rarr;</a></p>
+<p><a href="{{ '/contacto/' | relative_url }}" class="buy-btn">Contact the Laboratory &rarr;</a></p>
